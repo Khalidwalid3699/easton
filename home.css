@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    }
+    
+    body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #5e5a54;
+    }
+    
+    /*header */
+    header {
+    background-color: rgb(245, 146, 32);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(10, 9, 9);
+    }
+    
+    
+    nav {
+    float: left;
+    width: 25%;
+    height: 300px; 
+    background: rgb(194, 184, 152);
+    padding: 20px;
+    }
+    article{
+    float: left;
+    padding: 20px;
+    width: 50%;
+    height: 520px;
+    background-color: #be842d;
+    }
+    form{
+    float: left;
+    padding: 20px;
+    width: 25%;
+    height: 300px;
+    background-color: rgb(194, 184, 152);
+    }
+    
+    img{
+    padding: 20px;
+    width: 90%;
+    height: 60%;
+    } 
+    /* footer */
+    footer {
+    background-color: #777;
+    text-align: center;
+    color: white;
+    float: bottom;
+    }
+    
+    button{
+    margin: 7px;
+    padding: 10px;
+    background-color: rgb(160, 152, 152);
+    }
+    button:hover{
+    opacity: 0.6;
+    }
+    
+    /* Clear floats after the columns */
+    section::after {
+    content: "";
+    display: table;
+    clear: both;
+    }   
